@@ -38,6 +38,8 @@
         font-size: 45px;
     }
 
-
+    .quick-notes ul{
+        flex-direction: column;
+    }
 
 }
