@@ -28,7 +28,12 @@
     }
 
     .ads{
-        display: inline;
+        display: block;
+    }
+
+    .clearfix img{
+        float: left;
+        margin: 30px;
     }
 
 }
@@ -40,6 +45,11 @@
 
     .quick-notes ul{
         flex-direction: column;
+    }
+
+    .social-networks .label{
+        display: inline;
+        font-size: 20px;
     }
 
 }
