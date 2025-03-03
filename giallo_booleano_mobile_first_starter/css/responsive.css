@@ -1,14 +1,40 @@
 /* Soluzione qui */
 
-/* Bonus */
+/* MOBILE */
+@media screen and (min-width: 500px) {
+
+    .recipe-video img{
+        width: 100%;
+    }
+
+    .recipe-video{
+        margin-bottom: 80px;
+    }
+
+    .social-networks button{
+        padding: 10px 15px;
+    }
+}
+
+
+/* BONUS */
 @media screen and (min-width: 576px) {
     .clearfix img{
         float: left;
     }
 
-    .social-networks button{
-        padding: 10px 35px;
+    .recipe-video img{
+        width: 100%;
     }
+
+    .recipe-video{
+        margin-bottom: 80px;
+    }
+
+    .social-networks button{
+        padding: 10px 15px;
+    }
+
 }
 
 
