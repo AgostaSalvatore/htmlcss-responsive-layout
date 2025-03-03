@@ -52,4 +52,8 @@
         font-size: 20px;
     }
 
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
 }
