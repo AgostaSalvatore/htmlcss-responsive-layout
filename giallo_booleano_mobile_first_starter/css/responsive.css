@@ -1,4 +1,18 @@
 /* Soluzione qui */
+
+/* Bonus */
+@media screen and (min-width: 576px) {
+    .clearfix img{
+        float: left;
+    }
+
+    .social-networks button{
+        padding: 10px 35px;
+    }
+}
+
+
+/* TABLET */
 @media screen and (min-width:768px){
     #topbar{
     justify-content: flex-start;
@@ -48,11 +62,6 @@
     }   
 
 }
-
-
-
-
-
 
 /* DESKTOP */
 
