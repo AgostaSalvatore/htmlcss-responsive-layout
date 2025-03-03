@@ -1,7 +1,7 @@
 /* Soluzione qui */
 @media screen and (min-width:768px){
     #topbar{
-    justify-content: left;
+    justify-content: flex-start;
     }
 
     .container{
@@ -9,22 +9,25 @@
     }
 
     .recipe-origin{
-        display: inline;
+        display: inline-block;
     }
 
-    .recipe-title{
+    .recipe-name{
         font-size: 25px;
     }
 
     .quick-notes ul{
         display: flex;
-    }
-    .quick-notes li{
-        padding: 15px;
+        flex-wrap: wrap;
     }
 
-    .social-networks .btn{
-	font-size: 40px;
+    .quick-notes li{
+        padding: 15px;
+        width: 30%;
+    }
+
+    .social-networks button{
+	padding: 10px 40px;
     }
 
     .ads{
@@ -36,24 +39,55 @@
         margin: 30px;
     }
 
+    .recipe-video{
+        margin-bottom: 30px;
+    }
+
+    .recipe-video img{
+        width: 100%;
+    }   
+
 }
 
 @media screen and (min-width:992px){
-    .recipe-title{
+    .recipe-name{
         font-size: 45px;
     }
 
-    .quick-notes ul{
-        flex-direction: column;
+    .recipe-card{
+        display: flex;
+    }
+
+    .recipe-video{
+        width: 80%;
+    }
+
+    .recipe-video img{
+        width: 100%;
+    }
+
+    .recipe-info{
+        width: 20%;
+    }
+
+    .quick-notes li{
+        width: 100%;
     }
 
     .social-networks .label{
-        display: inline;
-        font-size: 20px;
+        display: inline-block;
+    }
+
+    .social-networks button{
+        padding: 10px 30px;
     }
 
     footer{
         display: flex;
         justify-content: space-between;
+    }
+
+    .clearfix{
+        display: flex;
     }
 }
